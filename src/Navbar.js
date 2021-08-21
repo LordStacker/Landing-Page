@@ -2,14 +2,14 @@ import React from "react";
 
 const Navbar = () => {
     return (<div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-md navbar-light bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand text-light" href="#">BootstrapNavbar</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul className="navbar-nav mb-2 mb-lg-0 float:right">
                         <li className="nav-item">
                             <a className="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
